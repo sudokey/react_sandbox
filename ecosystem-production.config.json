@@ -1,0 +1,12 @@
+{
+  "apps": [{
+    "name": "react_sandbox",
+    "script": "./dist/server.js",
+    "autorestart": true,
+    "source_map_support": true,
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 3033
+    }
+  }]
+}
